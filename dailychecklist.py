@@ -18,7 +18,7 @@ from datetime import date
 maps = [
 #Insert URLs which will be monitored
   'https://grafana.example.com.br/page01', 
-  'https://zabbix.example.com.br/page02' 
+  'https://zabbix.example.com.br/page02']
 
 #Path
 path_screenshot = ('C:\\Users\\youruser\\Documents\\Scripts\\Diversos\\Python\\Print\\')
