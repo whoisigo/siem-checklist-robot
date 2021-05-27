@@ -1,2 +1,3 @@
 # siem-checklist-robot
-Automate checklist routine to Microsoft Teams
+
+Automates the health check of the SIEM environment and sends notification to the Microsoft Teams channel.
