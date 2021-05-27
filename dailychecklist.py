@@ -1,8 +1,8 @@
 # =======================================================================
 #                                                                    
-#   Autor: Igor Nobre                         
+#   Author: Igor Nobre                         
 #   Date: 10-17-2020                                                   
-#   Description: Automate a SIEM Team checklist routine         
+#   Description: Automate a SIEM Team health check routine         
 #   Last update:                                                          
 #   Example: python3 ./dailyChecklist.py                              
 #                                                                          
@@ -21,7 +21,7 @@ maps = [
   'https://zabbix.example.com.br/page02' 
 
 #Path
-path_screenshot = ('C:\\Users\\youruser\\Documents\\Scripts\\Diversos\\Python\\Exercicios\\Print\\')
+path_screenshot = ('C:\\Users\\youruser\\Documents\\Scripts\\Diversos\\Python\\Print\\')
 #Week day
 now = date.today().strftime("Day %d of %B of %Y, week %V")
 
