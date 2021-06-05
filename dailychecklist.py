@@ -16,7 +16,7 @@ from datetime import date
 
 #Lists & variable
 maps = [
-#Insert URLs which will be monitored
+#Insert URLs that will be monitored
   'https://grafana.example.com.br/page01', 
   'https://zabbix.example.com.br/page02']
 
@@ -36,7 +36,7 @@ def openUrls():
   for x in range(len(maps)):
     webbrowser.open(maps[x], new=1)
     time.sleep(10)
-    sc = pyautogui.screenshot(region=(0,250, 1200, 600))
+    sc = pyautogui.screenshot(region=(0,250, 1200, 600)) #Adjust according to your monitor resolutions
     sc.save(f'{path_screenshot}{x}.png')
   #os.system('taskkill /F /IM msedge.exe > null')           
 
@@ -64,7 +64,7 @@ def sendEmail():
             <img src="cid:image2">
             <img src="cid:image3">
 
-            <br>Best Regards,</br>
+            <br>Best regards,</br>
             Cyber Security Team
             ''', 'html')  
   msgAlternative.attach(msgText)
